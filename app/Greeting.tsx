@@ -7,11 +7,11 @@ const profil = {
 };
 export const Greeting = (props: {}) => {
   return (
-    <div className="py-6 flex  flex-row justify-between">
+    <div className="py-6 flex  flex-row justify-between md:flex-wrap sm:flex-wrap w-full">
       <h1 className="text-4xl font-light"> Good Afternoon, {profil.Name}</h1>
       <BaseButton
         color="danger"
-        label="0"
+        label="12"
         Icon={() => <Image src={"/bell.svg"} className="sticky w-4 h-5 " alt="Bell" width={"16"} height="20" />}
       />
     </div>
