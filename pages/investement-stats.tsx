@@ -8,7 +8,7 @@ import { Badge } from "@/app/shared/components/Badge";
 
 export default function InvestementStats(props: {}) {
   return (
-    <main className="bg-main-bg min-h-screen min-w-screen h-full w-full p-10 flex-col flex text-black">
+    <main className="bg-main-bg min-h-screen min-w-screen w-full h-full overflow-y-auto overflow-x-visible p-10 flex-col flex text-black">
       <AppHeader border={true} />
       <div className="flex pt-5 h-full">
         <div className="pt-3.5 xs:hidden">
