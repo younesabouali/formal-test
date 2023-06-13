@@ -10,7 +10,7 @@ interface CompanyDetailsMenuProps {
 }
 const positionMapper: { [key: string]: { position: string } } = {
   bottom: {
-    position: " my-3 -left-[50%]",
+    position: " my-3 md:-left-[50%]",
   },
   right: {
     position: "mx-3 top-0 -right-[100%]",
